@@ -1,0 +1,34 @@
+#SPOTIFY
+    #XPATH
+    //button[@id='login-button']
+
+    #CSS SELECTOR
+    button[id='login-button']
+
+#TITANIUM INSTITUTE
+    #XPATH
+    //a[@title='SDET Java Bootcamp']//ancestor::div[@class='ld_course_grid col-sm-6 col-md-3  bb-course-item-wrap']
+
+    #CSS SELECTOR
+    div[class='ld_course_grid col-sm-6 col-md-3  bb-course-item-wrap']:nth-child(14) > div[class='bb-cover-list-item  ']
+
+
+#PAYONEER
+    #XPATH
+    //h5[text()='Solicitar un pago']
+    //a[@href='/es/solutions/local-bank-withdrawal/']
+
+    #CSS SELECTOR
+    .wpb_wrapper .wpb_row:nth-child(2) .wpb_column:nth-child(3) h5
+    .wpb_wrapper .wpb_row:nth-child(2) .wpb_column:nth-child(3) .btn
+
+#AUTOMATION DEMO SITE
+
+    #XPATH
+    //label//following::input[@type='radio']//ancestor::div[@class='col-md-4 col-xs-4 col-sm-4']
+    //select[@id='Skills']//child::option
+
+    #CSS SELECTOR
+    .col-md-4.col-xs-4.col-sm-4 > label > input[type='radio']
+    #Skills > option
+
