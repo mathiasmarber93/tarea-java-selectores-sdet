@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
-public class ShippingCart extends BaseTestClass {
+public class ShippingCart extends ShippingCartPage {
 
     @BeforeClass
     void login() {
